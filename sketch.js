@@ -4,6 +4,9 @@ function setup(){
     createCanvas(500,500);
     ball = createSprite(250,250,10,10);
     ball.shapeColor = "red";
+
+    bat = createSprite(400,400,20,80);
+    bat.shapeColor="red";
 }
 
 function draw(){
@@ -27,3 +30,4 @@ function changePosition(x,y){
     ball.x = ball.x + x;
     ball.y = ball.y + y;
 }
+
